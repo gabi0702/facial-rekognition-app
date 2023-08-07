@@ -70,7 +70,7 @@ function App() {
       <h2>Facial Rekognition System</h2>
       <form onSubmit={sendImage}>
         <div id="marg">
-          <label for="images" class="drop-container" id="dropcontainer">
+          <label for="images" className="drop-container" id="dropcontainer">
             <input
               type="file"
               name="image"
@@ -82,7 +82,7 @@ function App() {
           </label>
         </div>
 
-        <button type="submit" class="button-9">
+        <button type="submit" className="button-9">
           Authenticate
         </button>
       </form>
